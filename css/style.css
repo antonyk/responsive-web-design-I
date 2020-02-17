@@ -1,0 +1,193 @@
+/* my defaults */
+
+* {
+  /* border: 0.1px solid red; */
+  max-width: 900vw;
+}
+
+body {
+  /* border: 0.1px solid black; */
+  /* padding: 0 12px; */
+}
+
+.page-container {
+  /* border: 0.1px solid black; */
+  width: 900px;
+  padding: 0 12px;
+  margin: 0 auto;
+}
+
+header {
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  /* border: 1px solid black; */
+  /* height: 40px; */
+}
+
+header nav a {
+  text-decoration: none;
+  color: grey;
+  /* background-color: yellow; */
+}
+
+nav img {
+  /* display: inline-block; */
+}
+
+.left-nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 693px;
+}
+
+.right-nav {
+  width: 183px;
+}
+
+.nav-spacer {
+  width: 100%;
+  height: 8px;
+}
+
+.center-with-margin {
+}
+
+footer {
+}
+
+footer p {
+  /* border: 1px solid red; */
+}
+
+.two-col {
+  display: flex;
+  /* justify-content: space-between; */
+  width: 100%;
+  margin: 32px 0;
+}
+
+.two-col-item {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid black; */
+  width: 50%;
+}
+
+.two-col-item h2 {
+  width: 100%;
+}
+
+.three-col {
+  display: flex;
+  width: 100%;
+  margin: 32px 0;
+}
+
+.three-col-item {
+  width: 33.3%;
+}
+
+.hero-title {
+  border: 1px solid blue;
+  display: flex;
+  flex-flow: column nowrap;
+  /* justify-content: center; */
+  /* width: 100%; */
+  font-size: 4rem;
+}
+.hero-title span {
+  /* border: 1px solid blue; */
+  text-align: center;
+}
+
+.cta-button {
+  border: 1px solid black;
+  /* text-decoration: none; */
+  color: black;
+  height: 22pt;
+  width: 110pt;
+}
+
+hr {
+}
+
+footer a {
+  text-decoration: none;
+  color: black;
+}
+
+.copyright {
+  text-align: center;
+  margin-top: 48px;
+}
+
+.contact {
+  margin: 32px 0;
+}
+
+.details-title-section {
+  margin: 32px 0;
+}
+
+.details-content-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+}
+
+.details-card {
+  /* display: flex;
+  flex-direction: column;
+  align-content: space-around; */
+  
+  border: 1px solid black;
+  background-color: lightgray;
+  width: 48%;
+  padding: 16px;
+  margin-bottom: 32px;
+}
+.details-card p {
+  margin-bottom: 15px;
+}
+
+.more-button {
+  border: 1px solid black;
+  /* text-decoration: none; */
+  color: black;
+  height: 22pt;
+  width: 35%;
+  min-width: 80px;
+
+  border-radius: 5px;
+}
+
+hr {
+  margin-bottom: 32px;
+}
+
+ul {
+  list-style: inside;
+}
+li {
+  margin-top: 8px;
+}
+
+.facts-section {
+  display: flex;
+  justify-content: space-between;
+  /* align-content: space-between; */
+}
+.facts-item {
+  width: 47%;
+}
+.facts-section p {
+  /* margin-right: 32px; */
+  margin-bottom: 32px;
+}
