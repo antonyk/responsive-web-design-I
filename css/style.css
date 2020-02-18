@@ -63,7 +63,7 @@ nav .text-nav {
   display: flex;
   align-items: center;
   height: 60px;
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
 }
 
 nav .img-nav {
@@ -74,7 +74,7 @@ nav .img-nav {
 header nav a {
   text-decoration: none;
   color: grey;
-  background-color: yellow;
+  /* background-color: yellow; */
 }
 @media (max-width:800px) {
   header nav {
@@ -85,11 +85,11 @@ header nav a {
   }
   nav .text-nav {
     width: 100%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
   }
   nav .img-nav {
     justify-content: center;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
   }
   .hero .two-col-item:first-child {
     width: 100%;
@@ -99,7 +99,11 @@ header nav a {
   }
 }
 @media (max-width:500px) {
-  header nav {
+  nav .img-nav {
+    align-items: flex-start;
+    padding-top: 4px;
+    height: 61px;
+    border-bottom: 1px solid darkgray;
   }
   nav .text-nav {
     flex-direction: column;
@@ -107,8 +111,11 @@ header nav a {
     align-items: center; */
   }
   .text-nav-item {
-    border-bottom: 1px solid black;
-    height: 40px;
+    justify-content: center;
+    width: 100%;
+    /* border-top: 1px solid darkgrey; */
+    border-bottom: 1px solid darkgray;
+    height: 61px;
   }
 }
 
@@ -118,7 +125,7 @@ header nav a {
   margin-bottom: 24px;
 }
 .hero-title {
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
@@ -154,13 +161,25 @@ section.mid-section {
   border-top: 2px solid black;
 }
 
-@media (max-width) {
+@media (max-width:500px) {
+  .mid-section .two-col {
+    flex-direction: column;
+    /* width: 100%; */
+  }
   .mid-section .two-col .two-col-item {
     width: 100%;
+    margin: 26px 0;
   }
+  .mid-section .three-col {
+    flex-direction: column;
+    /* width: 100%; */
+  }
+  .mid-section .three-col .three-col-item {
+    width: 100%;
+    margin: 26px 0;
+    /* border: 1px solid blue; */
 }
-
-
+}
 
 /* Footer styles */
 footer {
@@ -183,17 +202,12 @@ footer p {
   margin: 32px 0;
 }
 
-
 .center-with-margin {
 }
-
-
-
 
 .two-col-item h2 {
   width: 100%;
 }
-
 
 .details-title-section {
   margin: 32px 0;
